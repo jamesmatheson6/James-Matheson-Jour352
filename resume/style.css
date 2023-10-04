@@ -1,18 +1,51 @@
 /* Styling for resume */
-h1 {
+
+BODY {
+  font-family: 'Open Sans', Arial, sans-serif
+}
+
+/* Name */
+#name {
+    font-size: 3em;
     text-transform: uppercase;
     text-align: center;
+    border-bottom: 1px solid #33485e;
+    width:60%;
+    min-width:  300px;
+    margin:0 auto
 }
-h5 {
+
+/* Section titles */
+#sectionheaders {
+  font-size: 1.5em;
+  color: white;
+  background-color: #33485e;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 10px 0 20px 0;
+  width:70;
+  min-width:300px;
+}
+
+/* Job titles */
+#jobtitle {
+  font-weight:600;
+  font-size: 1.5em;
+}
+
+/* Organization */
+#organization {
+  font-weight: 400;
+  font-size: 1.25em;
+}
+
+/* Dates */
+#date {
     font-style: italic;
     font-size: 1em;
     font-weight:400
    }
 
-BODY {
-    font-family: 'Open Sans', Arial, sans-serif
-    
-}
 p {
     color: #444;
   }
@@ -22,19 +55,7 @@ strong {
     color:#33485e;
     font-weight: 400;
   }
-h2 {
-    font-size: 1.5em;
-    color: white;
-    background-color: #33485e;
-  }
-h3 {
-    font-weight:600;
-    font-size: 1.5em;
-  }
-h4 { 
-    font-weight: 400;
-    font-size: 1.5em;
-  }
+
 ul {
     font-size: 1em;
   }
