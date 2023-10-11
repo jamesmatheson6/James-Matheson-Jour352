@@ -1,0 +1,22 @@
+/* Styling for bootstrap site */
+
+.h1, .h2, .h3{
+    font-family: "special-elite";
+}
+.row{
+    padding: 50px;
+}
+
+.row {
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width: 500px) {
+   h2 {
+    margin-top: 50px;
+    .btn {
+        background-color: teal;
+        font-family: "special-elite";
+   }
+}
+}
