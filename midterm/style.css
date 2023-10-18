@@ -1,0 +1,58 @@
+<!--SZA STORY STYLING-->
+
+#masthead {
+    padding-top: 0%;
+    padding-bottom: 5%;
+
+}
+
+#content {
+    width:100%;
+    max-width: 700px;
+    margin:0 auto;
+    font-family: Georgia, serif;
+    font: size 13px;;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+#headline {
+    font-family: Georgia, sans-serif;
+    font-size: 35px;
+    font-style: italic;
+    text-align: center;
+}
+
+#byline {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    }
+
+.captions {
+    font-size: 11px;
+    max-width: 600px;
+    text-align: center;
+
+}
+
+.blockquote {
+    font-size: 30px;
+    max-width: 700px;
+    text-align: center;
+    font-family: Georgia, sans-serif;
+}
+
+.links {
+    color: black;
+}
+.photo {
+text-align: center;
+}
+
+#spacers{
+    font-size: 30px;
+    max-width: 700px;
+    font-family: Georgia, sans-serif;
+}
