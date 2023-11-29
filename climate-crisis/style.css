@@ -1,0 +1,136 @@
+/*Cvontainer */
+
+.container{
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 100px;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+#headline {
+    font-size: 4em;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+  }
+
+/* Top Hat */
+
+.navbar-logo {
+    color: #E5C637;
+    margin:0 auto;
+    font-weight:700
+}
+
+.red{
+    color:#DD2715;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+
+/* Hero Uptop */
+.hero-container{
+    position:relative;
+    text-align:center;
+    color:#E5C637;
+}
+
+.hero-image{
+    width:100%
+}
+
+.overlay{
+    position:absolute;
+    top:12%;
+    width:100%;
+    opacity:.98;
+}
+
+.hero-head{
+    font-family: "Monaco", sans-serif;
+    font-size: 7em;
+    color:#DD2715;
+    margin:0 auto;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #E5C637;
+    font-weight: bold;
+
+}
+
+.hero-sub{
+    font-family: "Monaco", sans-serif;
+    font-size: 2em;
+    color: #DD2715;
+    -webkit-text-stroke-width: .25px;
+    -webkit-text-stroke-color: #E5C637;
+    text-align: center;
+    background: rgba(255,255,255,0.6);
+}
+
+.dropcap{
+float: left;
+line-height: 75%;
+width: .85em;
+font-size: 250%;
+font-family: "georgia";
+color: #DD2715;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #E5C637;
+
+}
+
+.pull-quote {
+    background-color: #f9f9f9;
+    border-left: 4px solid #DD2715;
+    padding: 20px;
+    margin: 20px 0;
+    font-size: 1.5em;
+}
+
+
+.captivating-sidebar {
+    background-color: white;
+    color: #DD2715;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-left:4px solid #E5C637 ;
+  }
+  
+  
+/* Side Bar */
+
+  .captivating-sidebar h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+
+  .chapter-header{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+/* MEDIA QUERIES */
+@media(max-width:850px) {
+    p {
+        padding-left: 20px;
+        padding-right:10px;
+    }
+    .hero-head{
+        font-size: 2em;
+
+    }
+}
+
+.footer{
+    font-style: italic;
+
+}
+
+.captions{
+    font-size: smaller;
+}
