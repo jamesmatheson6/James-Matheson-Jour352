@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 400px;
     font-size: 18px;
+    max-width: 1100x;
 }
 
 .container{
@@ -13,27 +14,7 @@ body {
     margin: 40px auto;
     padding: 40px;
     font-family: Georgia, 'Times New Roman', serif;
-}
-
-/* MEDIA QUERIES */
-
-@media(max-width:850px) {
-    p {
-        padding-left: 20px;
-        padding-right:10px;
-    }
-    /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { ... }
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { ... }
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { ... }
-    .hero-head{
-        font-size: 2em;
-
-    }
+    width: 80%;
 }
 
 #headline{
@@ -205,6 +186,11 @@ body {
     float: left;
     text-align: right;
     margin-right: 7px;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    max-inline-size: 100%;
+    block-size: auto;
  }
 
   blockquote.pull-quote {
@@ -221,4 +207,18 @@ body {
     font-family: "Bebas Neue";
   }
 
-  
+  /* MEDIA QUERIES */
+
+@media(max-width:768px) {
+    p {
+        padding-left: 20px;
+        padding-right:10px;
+    }
+    .hero-head{
+        font-size: 2em;
+    }
+.image{
+   max-width: 100%;
+   max-height: 50%;
+}
+}
