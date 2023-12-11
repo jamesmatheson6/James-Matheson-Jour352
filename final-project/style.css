@@ -86,12 +86,6 @@ font-size: 4px;
     color: #f22712;
 }
 
-.navbar {
-    color: #E5C637;
-    margin:0 auto;
-    font-weight:700
-}
-
 .overlay{
     position:absolute;
     top:12%;
@@ -101,23 +95,36 @@ font-size: 4px;
 
 .interactive-section {
     margin-top: 20px;
+    text-align: center;
 }
 
 .share-button {
-    padding: 10px;
-    color: #f22712;
+    background-color: #f22712; 
+    color: #fff; 
+    padding: 10px 20px;
     border: none;
-   
-}
-
-.comments {
-    margin-top: 15px;
-}
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    display: inline-block; 
+  }
+  
+  .share-button:hover {
+    background-color: #B10404; 
+  }
+  
+  .share-button a {
+    text-decoration: none;
+    color: #fff; 
+  }
 
 body {
     margin: 0;
     padding: 0;
  }
+
  .hero {
     position: relative;
     width: 100vw;
@@ -126,6 +133,7 @@ body {
     justify-content: center;
     align-items: center;
  }
+
  .hero::before {
     content: "";
     position: absolute;
@@ -139,6 +147,7 @@ body {
     background-position: center center;
     filter: brightness(60%);
  }
+
  .hero-content {
     position: relative;
     font-family: "georgia", sans-serif;
@@ -146,16 +155,19 @@ body {
     text-align: center;
     margin: 0.625rem;
  }
+
  .hero-title {
     font-size: 4rem;
     font-weight: 800;
     margin-bottom: 0;
  }
+
  .hero-subtitle {
     font-size: 2rem;
     font-weight: 200;
     margin-top: 1rem;
  }
+
  .hero-button {
     background-color: #f22712;
     color: white;
@@ -167,6 +179,7 @@ body {
     font-weight: 200;
     cursor: pointer;
  }
+
  .hero-button:hover {
     background-color: #f22712;
     border: 1px solid #f22712;
@@ -178,38 +191,13 @@ body {
     margin-top: 10px;
     width: inherit;
     margin-bottom: 10px;
-
  }
 
  .image{
     float: left;
     text-align: right;
     margin-right: 7px;
-    
  }
-
- #respond {
-    margin-top: 40px;
-  }
-  
-  #respond input[type='text'],
-  #respond input[type='email'],
-  #respond textarea {
-    margin-bottom: 10px;
-    display: block;
-    width: 100%;
-
-  
-    border: 1px solid #f22712;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -o-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -khtml-border-radius: 5px;
-    border-radius: 5px;
-  
-    line-height: 1.4em;
-  }
 
   blockquote.pull-quote {
     border-left: 4px solid #f22712;
